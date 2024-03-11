@@ -1,6 +1,51 @@
 # Laravel Backend Starter
 
-Laravel Backend Starter adalah sebuah proyek boilerplate untuk memulai pengembangan aplikasi backend menggunakan framework Laravel. Proyek ini bertujuan untuk memudahkan proses awal pembuatan aplikasi backend dengan menyediakan struktur dasar yang sudah siap digunakan.
+Laravel Backend Starter adalah sebuah proyek boilerplate untuk memulai pengembangan Restfull API untuk kebutuhan CMS menggunakan framework Laravel. Proyek ini bertujuan untuk memudahkan proses awal pembuatan aplikasi backend dengan menyediakan struktur dasar yang sudah siap digunakan. 
+
+
+## Fitur Utama
+
+### Authentication
+
+- Menggunakan JWT (JSON Web Tokens) untuk autentikasi.
+- Menyediakan endpoint untuk login pengguna.
+- Menyediakan endpoint untuk registrasi pengguna.
+
+### Role & Permission
+
+- Mengelola daftar peran (role) yang diberikan kepada pengguna.
+- Mengatur hak akses (permission) untuk setiap peran.
+- Menentukan akses ke fitur dan sumber daya berdasarkan peran dan izin.
+
+### Custom List Menu (with permission)
+
+- Memungkinkan pengguna untuk menyesuaikan daftar menu dalam aplikasi.
+- Integrasi dengan sistem peran dan izin untuk mengatur kustomisasi menu.
+
+### User Management
+
+- Menyediakan endpoint untuk manajemen pengguna seperti pembuatan, pengeditan, dan penghapusan pengguna.
+- Memberikan fungsionalitas untuk mengatur peran dan izin pengguna.
+- Mengelola informasi profil pengguna.
+
+### Send Mail Notification
+
+- Mengintegrasikan layanan email untuk mengirim pemberitahuan kepada pengguna.
+- Menyediakan fungsi untuk mengatur dan mengirim pesan email secara otomatis.
+
+## Fitur Tambahan
+
+### General Helper
+
+- Menyediakan kumpulan fungsi bantuan umum yang dapat digunakan di seluruh aplikasi.
+- Contoh fungsi termasuk validasi data, manipulasi string, dan format tanggal.
+
+### Log Exception Handler
+
+- Merekam pengecualian (exception) yang terjadi dalam aplikasi.
+- Menyediakan laporan terperinci tentang pengecualian untuk tujuan pemantauan dan debugging.
+- Memberikan pemahaman yang lebih baik tentang masalah yang muncul dalam sistem.
+
 
 ## Instalasi
 
