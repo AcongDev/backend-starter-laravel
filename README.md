@@ -17,13 +17,13 @@ Pastikan sistem Anda sudah memenuhi persyaratan berikut sebelum memulai instalas
 1. Clone repositori ini ke dalam direktori lokal Anda:
 
     ```bash
-    git clone https://github.com/namaproject.git
+    https://github.com/AcongDev/backend-starter-laravel.git
     ```
 
 2. Masuk ke direktori proyek:
 
     ```bash
-    cd namaproject
+    cd backend-starter-laravel
     ```
 
 3. Salin file `.env.example` menjadi `.env` dan sesuaikan pengaturan database Anda:
@@ -55,17 +55,22 @@ Pastikan sistem Anda sudah memenuhi persyaratan berikut sebelum memulai instalas
     ```bash
     php artisan serve
     ```
+    atau
+   ```bash
+    php -S localhost:{{port}} -t public
+    ```
 
-Proyek sekarang dapat diakses di `http://localhost:8000`.
+
+Proyek sekarang dapat diakses di `http://localhost:{{port}}`.
 
 ## Kontribusi
 
 Kami sangat menghargai kontribusi dari siapa pun untuk meningkatkan proyek ini. Jika Anda ingin berkontribusi, berikut adalah langkah-langkahnya:
 
 1. Fork repositori ini.
-2. Buat branch baru untuk fitur atau perbaikan Anda: `git checkout -b fitur-baru`.
-3. Lakukan perubahan yang diperlukan dan commit perubahan Anda: `git commit -am 'Tambahkan fitur baru'`.
-4. Push ke branch yang Anda buat: `git push origin fitur-baru`.
+2. Buat branch baru untuk fitur atau perbaikan Anda: `git checkout -b {{nama-kamu}}`.
+3. Lakukan perubahan yang diperlukan dan commit perubahan Anda: `git commit -am '{{pesan commit}}'`.
+4. Push ke branch yang Anda buat: `git push origin {{nama-kamu}}`.
 5. Buat pull request di repositori asli.
 
 ## Library Tambahan yang Digunakan
