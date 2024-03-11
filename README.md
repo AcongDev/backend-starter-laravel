@@ -11,7 +11,7 @@ Laravel Backend Starter adalah sebuah proyek boilerplate untuk memulai pengemban
 - Menyediakan endpoint untuk login pengguna.
 - Menyediakan endpoint untuk registrasi pengguna.
 
-### Role & Permission
+#### Role & Permission
 
 - Mengelola daftar peran (role) yang diberikan kepada pengguna.
 - Mengatur hak akses (permission) untuk setiap peran.
