@@ -126,3 +126,5 @@ Kami sangat menghargai kontribusi dari siapa pun untuk meningkatkan proyek ini. 
 
 ## Dokumen Tambahan
 Dokumen tambahan seperti Entity Relationship Diagram (ERD) dan flowchart akan ditambahkan segera setelah tersedia.
+
+- [Postman Documentation](https://documenter.getpostman.com/view/31558413/2sA2xiYDEA)
