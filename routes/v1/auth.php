@@ -1,7 +1,7 @@
 <?php
-use App\Http\Controllers\Api\Apicontroller;
+use App\Http\Controllers\Api\AuthController;
 
 Route::prefix('cms')->group(function ($route) {
-    $route->post('register', Apicontroller::class . '@register');
-    $route->post('login', Apicontroller::class . '@login');
+    $route->post('register', AuthController::class . '@register');
+    $route->post('login', AuthController::class . '@login');
 });

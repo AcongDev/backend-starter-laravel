@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
-class Apicontroller extends Controller
+class AuthController extends Controller
 {
     // Register Api
     public function register(Request $request)
