@@ -128,3 +128,4 @@ Kami sangat menghargai kontribusi dari siapa pun untuk meningkatkan proyek ini. 
 Dokumen tambahan seperti Entity Relationship Diagram (ERD) dan flowchart akan ditambahkan segera setelah tersedia.
 
 - [Postman Documentation](https://documenter.getpostman.com/view/31558413/2sA2xiYDEA)
+- [Postman Environtment](https://www.postman.com/warped-shadow-300506/workspace/starter-workspace/environment/31558413-8b867a4b-6afa-4a61-834b-e52504f55e6b?action=share&creator=31558413&active-environment=31558413-8b867a4b-6afa-4a61-834b-e52504f55e6b)
