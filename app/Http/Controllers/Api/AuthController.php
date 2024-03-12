@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
-class Apicontroller extends Controller
+class AuthController extends Controller
 {
     // Register Api
     public function register(Request $request)
@@ -25,10 +25,7 @@ class Apicontroller extends Controller
             "password" => Hash::make($request->password)
         ]);
 
-        return response()->json([
-            "status" =>true,
-            "message" => "User Registrated Successfully!"
-        ]);
+        return $this->response("Registration User Success!");
     }
 
     // Login Api
@@ -44,18 +41,11 @@ class Apicontroller extends Controller
             "password" => $request->password
         ]);
 
-        if(!empty($token)){
-            return response()->json([
-                "status" => true,
-                "message" => "User logged  in successfully!",
-                "token" => $token
-            ]);
+        if (!empty($token)) {
+            return $this->response(['access_token' => $token]);
         }
 
-        return response()->json([
-            "status" => false,
-            "message" => "Invalid details"
-        ]);
+        return $this->response('Email / Password Salah!', 'failed', 422);
     }
 
     // profile Api
@@ -74,7 +64,7 @@ class Apicontroller extends Controller
     {
         $token = JWTAuth::getToken();
         $newToken = JWTAuth::refresh($token, [], 10);
-        
+
         return response()->json([
             "status" => true,
             "message" => "New access token",
